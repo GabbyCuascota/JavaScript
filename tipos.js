@@ -4,7 +4,7 @@ var fecha = new Date();
 var casado = false; //true
 var casa = undefined;
 var arreglo = []
-console.log(casa ? "Verdadero" : "Falso");
+/*console.log(casa ? "Verdadero" : "Falso");
 if(casa){
     console.log("Verdadero");
 }else{
@@ -18,26 +18,32 @@ if (nombre !== edad){
 }else{
     console.log("Falso")
 }
-
+*/
 var usuario = {
     "nombre" : "Gabriela",
     apellido : "Cuascota",
     cedula : '1720437678',
-    imprimirEnConsola: function () {
+    imprimirEnConsola: function ()
+    {
         console.log(this.nombre + '' + this.apellido + '' + this.cedula)
     }
 };
-console.log("Usuario: ", usuario);
+//console.log("Usuario: ", usuario);
+console.log( usuario.cedula);
+console.log( usuario.nombre);
+console.log( usuario.apellido);
+console.log( usuario.imprimirEnConsola());
 
-function sumarDosNumeros(numeroUno, numeroDos){
+
+/*function sumarDosNumeros(numeroUno, numeroDos){
    // return numeroUno + numeroDos;
 }
     console.log(sumarDosNumeros(1,2));
-
-/*var sumarDosNumerosVersionDos = function (numeroUno, numeroDos){
+*/
+var sumarDosNumerosVersionDos = function (numeroUno, numeroDos){
      return numeroUno + numeroDos;
 };
-console.log(sumarDosNumerosVersionDos(1,2));*/
+console.log(sumarDosNumerosVersionDos(1,2));
 
 
 /*var sumarDosNumerosVersionDos = function (amigo){
