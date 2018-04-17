@@ -23,12 +23,24 @@ var usuario = {
     "nombre" : "Gabriela",
     apellido : "Cuascota",
     cedula : '1720437678',
-    //imprimirEnConsola
+    imprimirEnConsola: function () {
+        console.log(this.nombre + '' + this.apellido + '' + this.cedula)
+    }
 };
 console.log("Usuario: ", usuario);
 
 function sumarDosNumeros(numeroUno, numeroDos){
-    return numeroUno + numeroDos;
+   // return numeroUno + numeroDos;
 }
     console.log(sumarDosNumeros(1,2));
 
+/*var sumarDosNumerosVersionDos = function (numeroUno, numeroDos){
+     return numeroUno + numeroDos;
+};
+console.log(sumarDosNumerosVersionDos(1,2));*/
+
+
+/*var sumarDosNumerosVersionDos = function (amigo){
+    return numeroUno + numeroDos;
+};
+console.log(sumarDosNumerosVersionDos(1,2));*/
