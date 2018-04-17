@@ -22,6 +22,13 @@ if (nombre !== edad){
 var usuario = {
     "nombre" : "Gabriela",
     apellido : "Cuascota",
-    cedula : '1720437678'
+    cedula : '1720437678',
+    //imprimirEnConsola
 };
 console.log("Usuario: ", usuario);
+
+function sumarDosNumeros(numeroUno, numeroDos){
+    return numeroUno + numeroDos;
+}
+    console.log(sumarDosNumeros(1,2));
+
