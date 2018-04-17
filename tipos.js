@@ -36,7 +36,7 @@ console.log( usuario.imprimirEnConsola());
 */
 
 function sumarDosNumeros(numeroUno, numeroDos){
-   // return numeroUno + numeroDos;
+    return numeroUno + numeroDos;
 }
     console.log(sumarDosNumeros(1,2));
 
@@ -67,4 +67,9 @@ console.log( usuario.imprimirEnConsola(1, 2));
 };
 console.log(sumarDosNumerosVersionDos(1,2));*/
 
-var arregloDeNumeros = ["gabriela", 2, sumarDosNumeros(1, 2)]
+var arregloDeNumeros = ['2', false, sumarDosNumeros(1, 2)]
+console.log('arregloDeNumeros', arregloDeNumeros);
+
+for (var aux = 0; aux <10; aux++){
+    console.log( 'Aux: ', aux);
+}
