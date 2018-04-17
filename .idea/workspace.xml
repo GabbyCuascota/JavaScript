@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9f671f3-78b4-4333-81b2-6bd7f2158f86" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tipos.js" beforeDir="false" afterPath="$PROJECT_DIR$/tipos.js" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +16,8 @@
       <file leaf-file-name="tipos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tipos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -108,7 +109,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1054000" />
+    <option name="totallyTimeSpent" value="1788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="720" height="860" extended-state="0" />
@@ -156,8 +157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tipos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
