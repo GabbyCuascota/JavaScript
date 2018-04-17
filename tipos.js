@@ -19,7 +19,7 @@ if (nombre !== edad){
     console.log("Falso")
 }
 */
-var usuario = {
+/*var usuario = {
     "nombre" : "Gabriela",
     apellido : "Cuascota",
     cedula : '1720437678',
@@ -33,20 +33,38 @@ console.log( usuario.cedula);
 console.log( usuario.nombre);
 console.log( usuario.apellido);
 console.log( usuario.imprimirEnConsola());
+*/
 
-
-/*function sumarDosNumeros(numeroUno, numeroDos){
+function sumarDosNumeros(numeroUno, numeroDos){
    // return numeroUno + numeroDos;
 }
     console.log(sumarDosNumeros(1,2));
-*/
-var sumarDosNumerosVersionDos = function (numeroUno, numeroDos){
-     return numeroUno + numeroDos;
+
+/*var sumarDosNumerosVersionDos =
+
+    function (numeroUno, numeroDos){
+        return numeroUno + numeroDos;
+    };
+
+var usuario = {
+    "nombre" : "Gabriela",
+    apellido : "Cuascota",
+    cedula : '1720437678',
+    imprimirEnConsola: sumarDosNumerosVersionDos
 };
-console.log(sumarDosNumerosVersionDos(1,2));
+
+console.log( usuario.cedula);
+console.log( usuario.nombre);
+console.log( usuario.apellido);
+console.log( usuario.imprimirEnConsola(1, 2));
+*/
+
+//console.log(sumarDosNumerosVersionDos(1,2));
 
 
 /*var sumarDosNumerosVersionDos = function (amigo){
     return numeroUno + numeroDos;
 };
 console.log(sumarDosNumerosVersionDos(1,2));*/
+
+var arregloDeNumeros = ["gabriela", 2, sumarDosNumeros(1, 2)]
