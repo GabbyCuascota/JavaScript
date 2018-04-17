@@ -18,3 +18,10 @@ if (nombre !== edad){
 }else{
     console.log("Falso")
 }
+
+var usuario = {
+    "nombre" : "Gabriela",
+    apellido : "Cuascota",
+    cedula : '1720437678'
+};
+console.log("Usuario: ", usuario);
