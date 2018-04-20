@@ -42,3 +42,32 @@ class Usuario {
     }
 }
 let usuario:Usuario = new Usuario ('Gabriela',26, '1720437670');
+let usuarioOtro = {
+    mNombre: 'Gabriela',
+    mEdad:26,
+    mCedula:'1720437670'
+};
+console.log(usuario.imprimirEnConsola());
+console.log(usuarioOtro);
+
+function noHagoNada(){
+
+}
+console.log('No hago nada: ', noHagoNada());
+
+let usuarioTres:Usuario;
+
+interface UsuarioDos{
+    mNombre:String;
+    mEdad:Number;
+    mCedula:String;
+}
+
+
+class UsuarioTres {
+    constructor (public mNombre: String,
+                 private mEdad: Number,
+                 protected mCedula: String){
+
+    }
+}
