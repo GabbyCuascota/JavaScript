@@ -15,8 +15,8 @@
       <file leaf-file-name="02-operadores.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02-operadores.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+            <state relative-caret-position="334">
+              <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -113,7 +113,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8083000" />
+    <option name="totallyTimeSpent" value="8295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="720" height="860" extended-state="0" />
@@ -327,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-operadores.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+        <state relative-caret-position="334">
+          <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
         </state>
       </provider>
     </entry>
