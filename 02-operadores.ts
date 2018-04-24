@@ -76,8 +76,29 @@ return totalAcumulado - valorArreglo;
 
 console.log('resultadoDeLaSuma', resultadoDeLaSuma);
 
+    function calcularDeudaDeUsuario(edad: number) {
+        return arregloDeudas.reduce(
+            (totalAcumulado, deuda: number) => {
+                return totalAcumulado + (
+                    ((edad) / 100) * deuda
+                )
+            }, 0);
+    }
 
-    let resultadoDeLasEdades = arregloUsuarios
+
+    let usuariosConCincoAniosMenos = arregloUsuario
+        .map(
+            (usuario: UsuarioArreglo) => {
+                usuario.edad = usuario.edad - 5;
+                usuario.deuda = calcularDeudaDeUsuario(usuario.edad);
+                return usuario;
+            }
+        );
+
+
+    console.log('usuariosConCincoAniosMenos', usuariosConCincoAniosMenos);
+
+    let resultadoDeLasEdades = arregloUsuario
         .reduce(
             (totalEdadAcumulado, usuarioArreglo: UsuarioArreglo) => {
                 return totalEdadAcumulado + usuarioArreglo.edad;
@@ -87,7 +108,8 @@ console.log('resultadoDeLaSuma', resultadoDeLaSuma);
     console.log('resultadoDeLasEdades', resultadoDeLasEdades);
 
 
-interface UsuarioArreglo{
+
+    interface UsuarioArreglo{
     nombre: string;
     edad: number;
     deuda?: number;
